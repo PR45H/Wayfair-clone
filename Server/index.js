@@ -3,6 +3,15 @@ const app = express()
 require('dotenv').config()
 const port = process.env.port
 const connection = require('./config/db.js')
+const cors = require('cors')
+const userRouter = require('./routes/user.route.js')
+
+// middleware
+app.use(express.json())
+app.use(cors())
+
+// routes
+app.use('/api/user', userRouter)
 
 
 
