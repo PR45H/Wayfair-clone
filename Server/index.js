@@ -5,6 +5,7 @@ const port = process.env.port
 const connection = require('./config/db.js')
 const cors = require('cors')
 const userRouter = require('./routes/user.route.js')
+const productRouter = require('./routes/product.route.js')
 
 // middleware
 app.use(express.json())
@@ -12,6 +13,7 @@ app.use(cors())
 
 // routes
 app.use('/api/user', userRouter)
+app.use('/api/product', productRouter)
 
 
 
