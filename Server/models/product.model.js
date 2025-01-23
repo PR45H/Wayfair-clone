@@ -7,7 +7,7 @@ const productSchema = new mongoose.Schema
         type: { type: String, required: true }, // e.g., "bedding", "furniture"
         category: { type: String, required: true }, // e.g., "bed", "sofa"
         price: { type: Number, required: true },
-        description: { type: String },
+        description: { type: Map, of: mongoose.Schema.Types.Mixed },
         specifications: { type: Map, of: mongoose.Schema.Types.Mixed }, // Dynamic specifications
         images: [String],
         warranty: {
