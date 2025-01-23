@@ -13,10 +13,9 @@ const isAuthenticated = (req, res, next) => {
     
         if(!verified_token){
             return res.status(401).json({message: "Unauthorized access"});
-        }else{
-            req.user = verified_token;
-            next();
         }
+        req.user = verified_token.firstName;
+            next();
         
     } catch (error) {
         console.log(error);
