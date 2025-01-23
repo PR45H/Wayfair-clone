@@ -5,6 +5,7 @@ const productSchema = new mongoose.Schema
         name: { type: String, required: true },
         brand: { type: String, required: true },
         type: { type: String, required: true }, // e.g., "bedding", "furniture"
+        category: { type: String, required: true }, // e.g., "bed", "sofa"
         price: { type: Number, required: true },
         description: { type: String },
         specifications: { type: Map, of: mongoose.Schema.Types.Mixed }, // Dynamic specifications
