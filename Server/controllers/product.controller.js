@@ -24,7 +24,8 @@ const allProducts = async (req,res) => {
 // The user will get the list of available product data according to the type of product selected.
 const getProduct = async (req,res) => {
     try {
-        const type
+        const type = req.params.type
+        console.log(type)
     } catch (error) {
         
     }
