@@ -81,4 +81,47 @@ const addProduct = async (req,res) => {
     }
 }
 
-module.exports = {allProducts, getProduct, getProductById, addProduct}
+// updateProduct
+const updateProduct = async (req, res) => { 
+    try {
+        const productId = req.params.id;
+        const product = await productModel.findOne({ _id: productId });
+
+        // Check if product exists
+        if (!product) {
+            return res.status(404).json({ message: "Product not found" });
+        }
+
+        const updatedProduct = await productModel.findOneAndUpdate({ _id: productId}, req.body, { new: true });
+
+        return res.status(200).json({
+            message: 'Product updated successfully',
+            productId: updatedProduct._id,
+            data: updatedProduct
+        });
+    } catch (error) {
+        console.error(error);
+        return res.status(500).json({ message: "Internal Server Error" });
+    }
+}
+
+// deleteProduct
+const deleteProduct = async (req, res) => {
+try {
+    const productId = req.params.id;
+    const product = await productModel.findOne({ _id: productId});
+    if (!product) {
+        return res.status(404).json({ message: "Product not found" });
+    }
+    await productModel.deleteOne({ _id: productId});
+    return res.status(200).json({
+        message: 'Product deleted successfully',
+        productId: productId
+    });
+} catch (error) {
+    console.error(error);
+    return res.status(500).json({ message: "Internal Server Error" });
+}
+}
+
+module.exports = {allProducts, getProduct, getProductById, addProduct, updateProduct, deleteProduct}
