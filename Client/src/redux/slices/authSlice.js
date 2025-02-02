@@ -65,6 +65,23 @@ const authSlice = createSlice({
                 state.isLoading = false;
                 state.error = action.error.message;
             })
+        // Register case
+            .addCase(registerUser.pending, (state) => {
+                isLoading = true;
+                state.error = null;
+            })
+            .addCase(registerUser.fulfilled, (state, action => {
+                localStorage.setItem('token', action.payload.token);
+                state.user = action.payload.user;
+                state.token = action.payload.token;
+                state.isAuthenticated = true;
+                state.isLoading = false;
+                state.error = null;
+            }))
+            .addCase(registerUser.rejected, (state, action) => {
+                state.isLoading = false;
+                state.error = action.error.message;
+            })
     },
 });
 
