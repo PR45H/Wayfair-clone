@@ -1,12 +1,17 @@
 import { createSlice } from "@reduxjs/toolkit";
+import productApi from "@/api/product.api";
 
-const initialState = {};
+const initialState = {
+    item: [],
+    isLoading: false,
+    error: null
+};
 
 const productSlice = createSlice({
     name: "product",
     initialState,
     reducers: {
-        // Add reducers here
+        
     },
 });
 
