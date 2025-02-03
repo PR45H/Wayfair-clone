@@ -1,0 +1,34 @@
+{
+    "About Us": {
+        "title": "About Us",
+        "sub": [
+            "About Wayfair",
+            "Wayfair Rewards",
+            "Wayfair Professional",
+            "Design Services",
+            "Gift Cards",
+            "Wayfair Credit Card",
+            "Wayfair Financing",
+            "Product Collections",
+            "Careers",
+            "Sell on Wayfair",
+            "Creators",
+            "Investor Relations",
+            "Advertise With Us",
+            "Locations"
+        ]
+    },
+    "Customer Service": {
+        "title": "Customer Service",
+        "sub": [
+            "My Orders",
+            "My Account",
+            "Track My Order",
+            "Wayfair Accessibility Statement",
+            "Return Policy",
+            "Help Center",
+            "Ideas & Advice",
+            "Product Recalls"
+        ]
+    }
+}
