@@ -13,9 +13,9 @@ function App() {
     <>
       <ColorModeButton />
         <Header />
-      <Outlet />
-      <Footer />
-      <Toaster/>
+        <Outlet />
+        <Footer />
+        <Toaster/>
     </>
   )
 }
