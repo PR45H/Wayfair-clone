@@ -1,0 +1,1014 @@
+[
+    {
+        "name": "Furniture",
+        "subcategories": [
+            {
+                "name": "Furniture Sale",
+                "items": []
+            },
+            {
+                "name": "Living Room Furniture",
+                "items": [
+                    "Sofas",
+                    "Sectionals",
+                    "TV Stands & Entertainment Centers",
+                    "Coffee Tables",
+                    "End & Side Tables",
+                    "Accent Chairs",
+                    "Living Room Sets",
+                    "Reclining Furniture",
+                    "Living Room Furniture Sale"
+                ]
+            },
+            {
+                "name": "Office Furniture",
+                "items": [
+                    "Desks",
+                    "Bookcases",
+                    "Office Chairs",
+                    "Filing Cabinets",
+                    "Office Sets",
+                    "Office Furniture Sale"
+                ]
+            },
+            {
+                "name": "Bedroom Furniture",
+                "items": [
+                    "Beds",
+                    "Dressers & Chests",
+                    "Nightstands",
+                    "Armoires & Wardrobes",
+                    "Mattresses & Foundations",
+                    "Bedroom Sets",
+                    "Bedroom Furniture Sale"
+                ]
+            },
+            {
+                "name": "Entry & Mudroom Furniture",
+                "items": [
+                    "Console Tables",
+                    "Cabinets & Chests",
+                    "Shoe Storage",
+                    "Shoe Racks & Cubbies",
+                    "Hall Trees",
+                    "Entry & Mudroom Furniture Sale"
+                ]
+            },
+            {
+                "name": "Kitchen & Dining Furniture",
+                "items": [
+                    "Dining Tables & Seating",
+                    "Sideboards & Buffets",
+                    "Kitchen Islands & Carts",
+                    "Display & China Cabinets",
+                    "Bar Stools & Counter Stools",
+                    "Bar Furniture",
+                    "Kitchen & Dining Room Sets",
+                    "Kitchen & Dining Furniture Sale"
+                ]
+            },
+            {
+                "name": "Game Room Furniture",
+                "items": [
+                    "Gaming Chairs",
+                    "Gaming Desks",
+                    "Games & Game Tables",
+                    "Bean Bag Chairs",
+                    "Game Room Furniture Sale"
+                ]
+            },
+            {
+                "name": "Pet",
+                "items": []
+            },
+            {
+                "name": "New & Featured",
+                "items": [
+                    "Wayfair Verified™ Furniture",
+                    "Mercury Row",
+                    "Top Rated Furniture",
+                    "In Stock & Ready to Ship Furniture"
+                ]
+            },
+            {
+                "name": "Trending Now",
+                "items": [
+                    "Game-Day Seating",
+                    "Hang-Out Must Haves",
+                    "Modern Dining Sets"
+                ]
+            },
+            {
+                "name": "Design Services",
+                "items": []
+            }
+        ]
+    },
+    {
+        "name": "Outdoor",
+        "subcategories": [
+            {
+                "name": "Outdoor & Patio Furniture",
+                "items": [
+                    "Outdoor Sale",
+                    "Patio Furniture Sets",
+                    "Outdoor Seating & Patio Chairs",
+                    "Outdoor Tables",
+                    "Patio Bar Furniture",
+                    "Outdoor & Patio Furniture Sale"
+                ]
+            },
+            {
+                "name": "Outdoor Shades",
+                "items": [
+                    "Gazebos",
+                    "Pergolas",
+                    "Outdoor Canopies",
+                    "Awnings",
+                    "Outdoor Umbrellas",
+                    "Outdoor Shades Sale"
+                ]
+            },
+            {
+                "name": "Outdoor Décor",
+                "items": [
+                    "Outdoor Rugs",
+                    "Statues & Sculptures",
+                    "Outdoor Pillows & Cushions",
+                    "Outdoor Wall Décor",
+                    "Wreaths",
+                    "Planters",
+                    "Outdoor Décor Sale"
+                ]
+            },
+            {
+                "name": "Garden",
+                "items": [
+                    "Greenhouses",
+                    "Trellises",
+                    "Arbors",
+                    "Plant Stands & Accessories",
+                    "Garden Sale"
+                ]
+            },
+            {
+                "name": "Storage & Equipment",
+                "items": [
+                    "Garage Storage Cabinets",
+                    "Bike & Sport Racks",
+                    "Tool Storage",
+                    "Sheds",
+                    "Deck Boxes",
+                    "Storage Racks & Shelving Units",
+                    "Outdoor Storage Sale"
+                ]
+            },
+            {
+                "name": "Outdoor Living",
+                "items": [
+                    "Hot Tubs, Saunas & Pools",
+                    "Grills & Accessories",
+                    "Outdoor Kitchens",
+                    "Outdoor Serving & Tableware",
+                    "Grills & Outdoor Cooking Sale"
+                ]
+            },
+            {
+                "name": "Shop by Material",
+                "items": [
+                    "Teak Patio Furniture",
+                    "Wicker & Rattan Patio Furniture",
+                    "Metal Patio Furniture",
+                    "Wood Patio Furniture"
+                ]
+            },
+            {
+                "name": "Trending Now",
+                "items": [
+                    "Outdoor Spring Refresh",
+                    "Outdoor Throw Pillows"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Bed & Bath",
+        "subcategories": [
+            {
+                "name": "Bedding",
+                "items": [
+                    "Bed & Bath Sale",
+                    "Bedding & Bedding Sets",
+                    "Throw Pillows",
+                    "Throw Blankets",
+                    "Sheets & Pillowcases",
+                    "Bedding Sale"
+                ]
+            },
+            {
+                "name": "Bedding Essentials",
+                "items": [
+                    "Bed Pillows",
+                    "Mattress Pads & Toppers",
+                    "Down Comforters & Duvet Inserts",
+                    "Mattress Covers & Protectors",
+                    "Bed Skirts",
+                    "Bedding Basics Sale"
+                ]
+            },
+            {
+                "name": "Mattresses & Foundations",
+                "items": [
+                    "All Mattresses",
+                    "King Mattresses",
+                    "Queen Mattresses",
+                    "Full Mattresses",
+                    "Twin Mattresses",
+                    "Box Springs & Foundations",
+                    "Bed Frames",
+                    "Mattresses & Foundations Sale"
+                ]
+            },
+            {
+                "name": "Bathroom",
+                "items": [
+                    "Bathroom Vanities",
+                    "Bathroom Sink Faucets",
+                    "Bathroom Mirrors",
+                    "Bathroom Remodel Sale",
+                    "Bath Towels & Sets",
+                    "Bath Rugs & Mats",
+                    "Bath Rugs & Towels Sale"
+                ]
+            },
+            {
+                "name": "Bathroom Organization",
+                "items": [
+                    "Countertop Bath Accessories",
+                    "Shower & Bathtub Accessories",
+                    "Towel Storage",
+                    "Bathroom Organization Sale",
+                    "Shower Curtains & Shower Liners",
+                    "Shower Curtain Rods",
+                    "Shower Curtains & Accessories Sale"
+                ]
+            },
+            {
+                "name": "Shop Bedding by Material",
+                "items": [
+                    "Linen",
+                    "Percale",
+                    "Sateen",
+                    "Egyptian Cotton"
+                ]
+            },
+            {
+                "name": "Featured Brands",
+                "items": [
+                    "Wayfair Sleep",
+                    "Sealy",
+                    "Beautyrest",
+                    "Purple"
+                ]
+            },
+            {
+                "name": "Trending Now",
+                "items": [
+                    "Spring Blankets & Pillows",
+                    "Boost Your Bathroom",
+                    "Modern Bathroom Upgrades"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Rugs",
+        "subcategories": [
+            {
+                "name": "Shop All Rugs",
+                "items": [
+                    "Rugs Sale",
+                    "Area Rugs",
+                    "Hallway Runners",
+                    "Outdoor Rugs",
+                    "Bath Rugs & Mats",
+                    "Washable Rugs",
+                    "Kitchen Mats",
+                    "Doormats",
+                    "One-of-a-Kind Rugs",
+                    "Baby & Kids Rugs",
+                    "Rug Pads",
+                    "Stair Tread Rugs",
+                    "Carpet Tiles"
+                ]
+            },
+            {
+                "name": "Popular Rug Sizes",
+                "items": [
+                    "3' x 5' Rugs",
+                    "5' x 8' Rugs",
+                    "7' x 9' Rugs",
+                    "8' x 10' Rugs",
+                    "9' x 12' Rugs",
+                    "10' x 14' Rugs"
+                ]
+            },
+            {
+                "name": "New & Featured",
+                "items": [
+                    "Wayfair Verified™ Rugs",
+                    "Mistana",
+                    "Top-Rated Area Rugs",
+                    "Quick Ship Faves"
+                ]
+            },
+            {
+                "name": "Trending Now",
+                "items": [
+                    "Antique Style Rugs",
+                    "Jute & Sisal Rugs",
+                    "Check & Striped Rugs"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Decor & Pillows",
+        "subcategories": [
+            {
+                "name": "Wall Décor",
+                "items": [
+                    "Décor & Pillows Sale",
+                    "Wall & Display Shelves",
+                    "Wall Accents",
+                    "Wallpaper",
+                    "Peel & Stick Wallpaper",
+                    "Tapestries",
+                    "Wall Decals",
+                    "Wall Décor Sale"
+                ]
+            },
+            {
+                "name": "Home Accessories",
+                "items": [
+                    "Vases, Urns, Jars & Bottles",
+                    "Decorative Objects",
+                    "Decorative Trays",
+                    "Globes",
+                    "Decorative Boxes",
+                    "Home Accessories Sale"
+                ]
+            },
+            {
+                "name": "Art",
+                "items": [
+                    "All Wall Art",
+                    "Art by Subject",
+                    "Art by Type",
+                    "Art by Room",
+                    "Wall Art Sale"
+                ]
+            },
+            {
+                "name": "Mirrors",
+                "items": [
+                    "All Mirrors",
+                    "Wall Mirrors",
+                    "Vanity & Dresser Mirrors",
+                    "Full Length Mirrors",
+                    "Mirrors Sale"
+                ]
+            },
+            {
+                "name": "Flowers & Plants",
+                "items": [
+                    "Faux Plants",
+                    "Faux Trees",
+                    "Faux Flowers",
+                    "Live Plants",
+                    "Indoor Planters",
+                    "Flowers & Plants Sale"
+                ]
+            },
+            {
+                "name": "Window Treatments",
+                "items": [
+                    "Curtains & Drapes",
+                    "Blinds & Shades",
+                    "Window Treatments Sale"
+                ]
+            },
+            {
+                "name": "Decorative Pillows & Blankets",
+                "items": [
+                    "Throw Pillows",
+                    "Throw Blankets",
+                    "Decorative Pillows & Blankets Sale"
+                ]
+            },
+            {
+                "name": "New & Featured",
+                "items": [
+                    "Wayfair Verified™ Décor",
+                    "Quick-Ship Mirrors & Decor",
+                    "All for Antiqued",
+                    "Top-Rated Decorative Objects"
+                ]
+            },
+            {
+                "name": "Trending Now",
+                "items": [
+                    "Spring Florals & Greenery",
+                    "Spring Blankets & Pillows",
+                    "Holiday Decor Storage",
+                    "Design Services"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Lighting",
+        "subcategories": [
+            {
+                "name": "Ceiling Lights",
+                "items": [
+                    "Lighting Sale",
+                    "All Ceiling Lights",
+                    "Chandeliers",
+                    "Pendant Lighting",
+                    "Flush Mount Lighting",
+                    "Recessed Lighting",
+                    "Ceiling Lights Sale"
+                ]
+            },
+            {
+                "name": "Table & Floor Lamps",
+                "items": [
+                    "Table Lamps",
+                    "Floor Lamps",
+                    "Lamp Sets",
+                    "Lamp Shades",
+                    "Desk Lamps",
+                    "Table & Floor Lamps Sale"
+                ]
+            },
+            {
+                "name": "Outdoor Lighting",
+                "items": [
+                    "All Outdoor Lights",
+                    "Outdoor Wall Lighting",
+                    "Outdoor Ceiling Lights",
+                    "Outdoor Lanterns & Lamps",
+                    "String Lights",
+                    "LED Outdoor Lights",
+                    "Outdoor Lighting Sale"
+                ]
+            },
+            {
+                "name": "Wall Lights",
+                "items": [
+                    "Bathroom Vanity Lighting",
+                    "Wall Sconces",
+                    "Swing Arm Wall Sconces",
+                    "Under Cabinet Lighting",
+                    "Picture Lights",
+                    "Wall Lights Sale"
+                ]
+            },
+            {
+                "name": "Ceiling Fans",
+                "items": [
+                    "All Ceiling Fans",
+                    "Ceiling Fans With Lights",
+                    "Indoor Ceiling Fans",
+                    "Outdoor Ceiling Fans",
+                    "Ceiling Fans Sale"
+                ]
+            },
+            {
+                "name": "Light Bulbs & Hardware",
+                "items": [
+                    "Light Bulbs",
+                    "Switch Plates",
+                    "Light Shades",
+                    "Switches, Dimmers & Outlets",
+                    "Lighting Components",
+                    "Light Bulbs & Hardware Sale"
+                ]
+            },
+            {
+                "name": "New & Featured",
+                "items": [
+                    "Wayfair Verified™ Lighting",
+                    "Outdoor Lighting by Mercury Row",
+                    "Top-Rated Lighting",
+                    "Quick Ship Table Lamps"
+                ]
+            },
+            {
+                "name": "Trending Now",
+                "items": [
+                    "Guest Bathroom Refresh: Lighting",
+                    "Modern & Industrial Lighting"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Organization",
+        "subcategories": [
+            {
+                "name": "Storage Containers & Drawers",
+                "items": [
+                    "Organization Sale",
+                    "All Storage Containers",
+                    "Woven Baskets",
+                    "Decorative Storage",
+                    "Cube Storage",
+                    "Storage Drawers",
+                    "Storage Bins with Lids",
+                    "Utility Carts",
+                    "Storage Containers & Drawers Sale"
+                ]
+            },
+            {
+                "name": "Storage Furniture",
+                "items": [
+                    "Bookcases",
+                    "Cabinets & Chests",
+                    "Storage Benches",
+                    "Storage Ottomans",
+                    "Storage Furniture Sale"
+                ]
+            },
+            {
+                "name": "Wall & Closet Organization",
+                "items": [
+                    "Wall & Display Shelves",
+                    "Wall Hooks",
+                    "All Closet Systems",
+                    "Clothes & Garment Racks",
+                    "Shoe Storage",
+                    "All Closet Accessories",
+                    "Storage Trunks",
+                    "Closet Organization Sale"
+                ]
+            },
+            {
+                "name": "Garage & Outdoor Storage",
+                "items": [
+                    "Garage Storage Cabinets",
+                    "Bike & Sport Racks",
+                    "Tool Storage",
+                    "Sheds",
+                    "Deck Boxes",
+                    "Storage Racks & Shelving Units",
+                    "Outdoor Storage Sale"
+                ]
+            },
+            {
+                "name": "Office & Bathroom Organization",
+                "items": [
+                    "Desktop Organization",
+                    "File Boxes",
+                    "Filing Cabinets",
+                    "Bathroom Cabinets & Shelving",
+                    "Countertop Bath Accessories",
+                    "Shower & Bathtub Accessories",
+                    "Bathroom Trash Cans",
+                    "Bathroom Organization Sale"
+                ]
+            },
+            {
+                "name": "Kitchen Organization",
+                "items": [
+                    "Food Pantries",
+                    "Food Storage Containers",
+                    "Kitchen Shelving",
+                    "Cabinet Organization",
+                    "Pot Racks",
+                    "Spice Jars & Spice Racks",
+                    "Kitchen Organization Sale"
+                ]
+            },
+            {
+                "name": "Cleaning & Laundry",
+                "items": [
+                    "Vacuums & Deep Cleaners",
+                    "Hampers & Laundry Baskets",
+                    "Trash Cans & Recycling",
+                    "Laundry Organization Sale"
+                ]
+            },
+            {
+                "name": "Featured Brands",
+                "items": [
+                    "Wayfair Basics",
+                    "Dotted Line",
+                    "ClosetMaid",
+                    "Trinity"
+                ]
+            },
+            {
+                "name": "Trending Now",
+                "items": [
+                    "Spring Cleaning Essentials",
+                    "Organize Every Space",
+                    "Holiday Decor Storage",
+                    "Closet Organization Essentials",
+                    "Buying Guides"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Kitchen",
+        "subcategories": [
+            {
+                "name": "Tableware & Drinkware",
+                "items": [
+                    "Kitchen & Dining Sale",
+                    "Dinnerware",
+                    "Table Accents",
+                    "Drinkware",
+                    "Table & Kitchen Linens",
+                    "Flatware & Silverware",
+                    "Barware",
+                    "Tableware & Drinkware Sale"
+                ]
+            },
+            {
+                "name": "Grills & Outdoor Cooking",
+                "items": [
+                    "Grills & Accessories",
+                    "Outdoor Kitchens",
+                    "Outdoor Serving & Tableware",
+                    "Grills & Outdoor Cooking Sale"
+                ]
+            },
+            {
+                "name": "Cookware & Bakeware",
+                "items": [
+                    "Cookware",
+                    "Bakeware",
+                    "Pots, Pans & Skillets",
+                    "Knives & Accessories",
+                    "Cooking Utensils",
+                    "Kitchen Utensils & Tools",
+                    "Cookware & Bakeware Sale"
+                ]
+            },
+            {
+                "name": "Kitchen Organization",
+                "items": [
+                    "Food Pantries",
+                    "Kitchen Shelving",
+                    "Cabinet & Pantry Organization",
+                    "Countertop Organization",
+                    "Kitchen Organization Sale"
+                ]
+            },
+            {
+                "name": "Small Kitchen Appliances",
+                "items": [
+                    "Air Fryers",
+                    "Mixers & Attachments",
+                    "Coffee, Espresso, & Tea",
+                    "Mini Fridges",
+                    "Ice Makers",
+                    "Blenders",
+                    "Toaster Ovens",
+                    "Small Kitchen Appliances Sale"
+                ]
+            },
+            {
+                "name": "Kitchen Remodel",
+                "items": [
+                    "Custom Kitchen Cabinets",
+                    "Kitchen Appliances"
+                ]
+            },
+            {
+                "name": "Featured Brands",
+                "items": [
+                    "Ninja",
+                    "Cuisinart",
+                    "Calphalon"
+                ]
+            },
+            {
+                "name": "Trending Now",
+                "items": [
+                    "Build Your Bar Cart",
+                    "Valentine's Day Tabletop",
+                    "Colorful Cookware & Bakeware",
+                    "The Perfect Cup: Coffee Essentials"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Baby & Kids",
+        "subcategories": [
+            {
+                "name": "Nursery Furniture",
+                "items": [
+                    "Baby & Kids Sale",
+                    "Cribs",
+                    "Crib Mattresses",
+                    "Gliders, Rockers, & Recliners",
+                    "Changing Tables",
+                    "Cradles & Bassinets",
+                    "Nursery Furniture Sets",
+                    "Nursery Furniture Sale"
+                ]
+            },
+            {
+                "name": "Toddler & Kids Playroom",
+                "items": [
+                    "Toddler & Kids Table & Chair Sets",
+                    "Play Kitchen Sets & Accessories",
+                    "Indoor Play",
+                    "Toddler & Kids Playroom Sale"
+                ]
+            },
+            {
+                "name": "Kids Bedroom Furniture",
+                "items": [
+                    "Kids Beds",
+                    "Bunk Beds",
+                    "Toddler Beds",
+                    "Baby & Kids Dressers",
+                    "Kids Desks",
+                    "Kids Bedroom Sets",
+                    "Toddler & Kids Bedroom Furniture Sale"
+                ]
+            },
+            {
+                "name": "Kids Essentials",
+                "items": [
+                    "Baby & Kids Storage",
+                    "Toddler & Kids Bedding & Bath",
+                    "Baby & Kids Rugs, Décor & Lighting",
+                    "Nursery Bedding"
+                ]
+            },
+            {
+                "name": "Backyard Play",
+                "items": [
+                    "Swing Sets",
+                    "Bounce Houses & Inflatable Slides",
+                    "Climbing Toys & Slides",
+                    "Outdoor Playhouses",
+                    "Backyard Play Sale"
+                ]
+            },
+            {
+                "name": "Teen Room",
+                "items": [
+                    "Teen Bedding",
+                    "Teen Decor & Lighting",
+                    "Teen Bedroom Furniture",
+                    "Teen Beds",
+                    "Teen Bunk & Loft Beds",
+                    "Teen Lounge Furniture",
+                    "Teen Bedroom Furniture Sale"
+                ]
+            },
+            {
+                "name": "New & Featured",
+                "items": [
+                    "Mack + Milo",
+                    "Customer Picks: Kids Furniture",
+                    "Greenguard Certified Baby & Kids Furniture"
+                ]
+            },
+            {
+                "name": "Trending Now",
+                "items": [
+                    "Must-Have Kids Rugs",
+                    "Sports Fan Shop",
+                    "Nautical Kids Room"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Home Improvement",
+        "subcategories": [
+            {
+                "name": "Bathroom Remodel & Fixtures",
+                "items": [
+                    "Home Improvement Sale",
+                    "Bathroom Vanities",
+                    "Bathroom Sink Faucets",
+                    "Bathroom Mirrors",
+                    "Bathroom Sinks",
+                    "Showers & Bathtubs",
+                    "Toilets & Bidets",
+                    "Bathroom Remodel Sale"
+                ]
+            },
+            {
+                "name": "Kitchen Remodel & Fixtures",
+                "items": [
+                    "Kitchen Faucets",
+                    "Kitchen Sinks",
+                    "Cabinets & Cabinet Hardware",
+                    "Custom Kitchen Cabinets",
+                    "Kitchen Remodel & Fixtures Sale"
+                ]
+            },
+            {
+                "name": "Window & Wall Treatments",
+                "items": [
+                    "Curtains & Drapes",
+                    "Blinds & Shades",
+                    "Floor Tiles & Wall Tiles",
+                    "Wall Paneling",
+                    "Vinyl Flooring",
+                    "Window Treatments Sale",
+                    "Flooring & Walls Sale"
+                ]
+            },
+            {
+                "name": "Doors & Hardware",
+                "items": [
+                    "Interior Doors",
+                    "Exterior Doors",
+                    "Door Hardware & Accessories",
+                    "Cabinet Hardware",
+                    "Bathroom Hardware",
+                    "Doors & Door Hardware Sale",
+                    "Hardware Sale"
+                ]
+            },
+            {
+                "name": "Climate Control",
+                "items": [
+                    "Fireplaces & Stoves",
+                    "Air Conditioners",
+                    "Heating, Cooling & Air Quality Sale"
+                ]
+            },
+            {
+                "name": "Featured Brands",
+                "items": [
+                    "Kohler",
+                    "Shaw",
+                    "Delta"
+                ]
+            },
+            {
+                "name": "Trending Now",
+                "items": [
+                    "Renovate Your Bathroom",
+                    "Patterned Floor & Wall Tile",
+                    "Farmhouse Sinks",
+                    "Tile Under $4"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Appliances",
+        "subcategories": [
+            {
+                "name": "Kitchen Appliances",
+                "items": [
+                    "Appliances Sale",
+                    "Kitchen Appliances",
+                    "Refrigerators & Freezers",
+                    "Range Hoods",
+                    "Microwaves",
+                    "Ranges",
+                    "Dishwashers",
+                    "Wine & Beverage Coolers",
+                    "Wall Ovens",
+                    "Cooktops",
+                    "Kitchen Appliance Packages",
+                    "Kitchen Appliances Sale"
+                ]
+            },
+            {
+                "name": "Small Kitchen Appliances",
+                "items": [
+                    "Small Kitchen Appliances",
+                    "Air Fryers",
+                    "Mixers & Attachments",
+                    "Coffee, Espresso, & Tea",
+                    "Mini Fridges",
+                    "Ice Makers",
+                    "Blenders",
+                    "Toaster Ovens",
+                    "Small Kitchen Appliances Sale"
+                ]
+            },
+            {
+                "name": "Vacuums & Deep Cleaners",
+                "items": [
+                    "Vacuums & Deep Cleaners",
+                    "All Vacuums",
+                    "Stick Vacuums",
+                    "Upright Vacuums",
+                    "Canister Vacuums",
+                    "Vacuums & Deep Cleaners Sale"
+                ]
+            },
+            {
+                "name": "Washers & Dryers",
+                "items": [
+                    "Washers & Dryers",
+                    "Washing Machines",
+                    "Dryers",
+                    "Washer & Dryer Sets",
+                    "Washers & Dryers Sale"
+                ]
+            },
+            {
+                "name": "Heating, Cooling & Air Quality",
+                "items": [
+                    "Heating, Cooling & Air Quality",
+                    "Air Conditioners",
+                    "Air Purifiers",
+                    "Dehumidifiers",
+                    "Space Heaters",
+                    "Heating, Cooling & Air Quality Sale"
+                ]
+            },
+            {
+                "name": "Featured Brands",
+                "items": [
+                    "GE Appliances",
+                    "Frigidaire",
+                    "LG"
+                ]
+            },
+            {
+                "name": "Trending Now",
+                "items": [
+                    "Smart Appliances",
+                    "Spring Cleaning Essentials"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Pet",
+        "items": [
+            {
+                "name": "Dog",
+                "items": [
+                    "Pet Furniture Sale",
+                    "Dog Crates & Kennels",
+                    "Dog Carriers",
+                    "Dog Beds",
+                    "Pet-Friendly Slipcovers",
+                    "Dog Ramps & Stairs",
+                    "Dog Strollers",
+                    "Dog Houses",
+                    "Dog Food Storage & Treat Jars",
+                    "Dog Furniture Sale"
+                ]
+            },
+            {
+                "name": "Cat",
+                "items": [
+                    "Pet Bowls & Feeders",
+                    "Pet Gates & Doors",
+                    "Cat Beds",
+                    "Cat Cages & Catios",
+                    "Cat Trees, Perches & Scratchers",
+                    "Litter Boxes",
+                    "Cat Furniture Sale"
+                ]
+            },
+            {
+                "name": "Other Pets",
+                "items": [
+                    "Small Animal",
+                    "Reptile",
+                    "Fish",
+                    "Bird",
+                    "Chicken"
+                ]
+            },
+            {
+                "name": "Featured Brands",
+                "items": [
+                    "FurHaven",
+                    "PetSafe",
+                    "Archie & Oscar"
+                ]
+            },
+            {
+                "name": "Trending Now",
+                "items": [
+                    "Pet Tech Shop",
+                    "Cozy Dog Beds",
+                    "The Outdoor Pet Shop"
+                ]
+            }
+        ]
+    }
+]
