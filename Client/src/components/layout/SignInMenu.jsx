@@ -9,7 +9,7 @@ const SignInMenu = () => {
         { name: "Create Account", link: "/signup", icon: <MdOutlineManageAccounts /> },
         { name: "My Account", link: "/account", icon: <FaRegUserCircle /> },
         { name: "My Orders", link: "/orders", icon: <LuPackageOpen /> },
-        { name: "Gift Card", link: "/giftcard", icon: <MdCardGiftcard /> },
+        { name: "Gift Card", link: "/", icon: <MdCardGiftcard /> },
         {name: "Review My Purchases", icon: <MdOutlineReviews/>},
     ];
 
