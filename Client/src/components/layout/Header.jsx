@@ -35,7 +35,7 @@ const Header = () => {
                     <img src={logo} alt="logo" className="h-10 sm:h-12 cursor-pointer" />
                 </div>
 
-                <div className="w-[50%] mb-2 sm:mb-0 border border-red-600">
+                <div className="w-[50%] mb-2 sm:mb-0 ">
                     <HStack gap="10" className="">
                         <InputGroup flex="1" startElement={<BsSearch />}>
                             <Input
