@@ -16,12 +16,12 @@ const Navbar = () => {
 
   return (
     <div className="bg-white text-black ">
-      <div className="max-w mx-auto flex ">
-        <div className="hidden md:flex space-x-4">
+      <div className="max-w mx-auto ">
+        <div className="hidden md:flex space-x-4 justify-evenly">
           {navbarData.map((category, index) => (
             <MenuRoot key={index}>
               <MenuTrigger asChild>
-                <button className="bg-transparent border-none text-md cursor-pointer px-4 py-2 hover:text-[#7B189F] hover:underline-">
+                <button className="bg-transparent font-semibold border-none text-lg cursor-pointer px-4 py-2 hover:text-[#7B189F] hover:underline-">
                   {category.name}
                 </button>
               </MenuTrigger>
@@ -33,7 +33,7 @@ const Navbar = () => {
                         {subcategory.name}
                       </h3>
                       {subcategory.items && subcategory.items.map((item, itemIndex) => (
-                        <MenuItem key={itemIndex} className="hover:text-[#7B189F] hover:underline">
+                        <MenuItem key={itemIndex} className="hover:text-[#7B189F] hover:underline bg-transparent cursor-pointer">
                           {item}
                         </MenuItem>
                       ))}
