@@ -11,6 +11,7 @@ import {
     MenuTrigger,
 } from "@/components/ui/menu"
 import SignInMenu from "./SignInMenu";
+import Navbar from "./Navbar";
 
 const Header = () => {
     return (
@@ -46,6 +47,7 @@ const Header = () => {
                         </InputGroup>
                     </HStack>
                 </div>
+                
                 <div className="flex gap-6">
                     {/* Profile Icon Placeholder */}
                     <div>
@@ -89,6 +91,7 @@ const Header = () => {
                     </svg>
                 </button>
             </div>
+            <Navbar/>
         </header>
     );
 };
