@@ -18,9 +18,6 @@ const Signup = () => {
                 <div>
                     <UserRegistationForm />
                 </div>
-                <div>
-                    <Footer/>
-                </div>
             </div>
         </>
     )
