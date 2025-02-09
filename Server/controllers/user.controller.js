@@ -51,7 +51,7 @@ const login = async (req,res) => {
             return res.status(401).json({message: "Password is incorrect!"})
         }
         // create token
-        const token = jwt.sign({ id: user._id, name: user.firstName }, jwt_secret_key)
+        const token = jwt.sign({ id: user._id, name: user.firstName }, jwt_secret_key, { expiresIn:'1h' })
         return res.status(200).json({message: "Login successful!", token: token})
     } catch (error) {
         return res.status(500).json({message: error.message})
