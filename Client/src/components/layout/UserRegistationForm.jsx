@@ -4,9 +4,14 @@ import { Input, Button, Stack, Toaster } from '@chakra-ui/react';
 import { Field } from '@/components/ui/field';
 import { toaster } from '../ui/toaster';
 import axios from 'axios';
+import {useDispatch} from 'react-redux';
+import {useNavigate} from 'react-router-dom';
+import {registerUser} from '@/redux/slices/authSlice';
 
 
 const UserRegistationForm = () => {
+    const dispatch = useDispatch();
+    const navigate = useNavigate();
     const {
         register,
         handleSubmit,
@@ -15,22 +20,18 @@ const UserRegistationForm = () => {
 
     const onSubmit = async (data) => {
         try {
-            // console.log(data);
-            const response = await axios.post(`${import.meta.env.VITE_API_URL}/user/register`, data);
-            // console.log(response);
-            const message = response.data;
-            // console.log(message);
-            if(response.status === 201){
+            const result = await dispatch(registerUser(data)).unwrap();
+            if (result) {
                 toaster.create({
-                    title: message,
+                    title: result.message || 'Registration successful!',
                     type: 'success',
                     duration: 5000,
                 });
+                navigate('/signin');
             }
         } catch (error) {
-            console.error(error.response.data.message);
             toaster.create({
-                title: error.response.data.message,
+                title: error?.message || 'Registration failed',
                 type: 'error',
                 duration: 5000,
             });
@@ -40,7 +41,7 @@ const UserRegistationForm = () => {
     return (
         <div className='flex flex-col items-center'>
             <div className='suggestion'>
-                <p>Enter your details in the form to create an account</p>
+                <p className="font-semibold text-2xl p-4">Enter your details in the form to create an account</p>
             </div>
             <div className='form p-8 w-full'>
                 <form onSubmit={handleSubmit(onSubmit)}>
@@ -108,7 +109,6 @@ const UserRegistationForm = () => {
                     </Stack>
                 </form>
             </div>
-            
         </div>
     );
 };
