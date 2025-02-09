@@ -67,7 +67,7 @@ const authSlice = createSlice({
             })
         // Register case
             .addCase(registerUser.pending, (state) => {
-                isLoading = true;
+                state.isLoading = true;
                 state.error = null;
             })
             .addCase(registerUser.fulfilled, (state, action) => {
