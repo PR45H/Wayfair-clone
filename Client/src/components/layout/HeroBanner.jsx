@@ -26,7 +26,7 @@ const HeroBanner = () => {
     ]
 
     return (
-        <div className="w-svw pb-8 pt-6">
+        <div className="w-full pb-8 pt-6">
             <Slider {...settings} className="w-full">
                 {banners.map((banner, i) => (
                     <div key={i} >
