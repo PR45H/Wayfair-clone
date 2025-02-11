@@ -1,8 +1,14 @@
+import HeroBanner from '@/components/layout/HeroBanner'
 import React from 'react'
 
 const Home = () => {
     return (
-        <div>Home</div>
+        <>
+            <div>
+                <HeroBanner />
+            </div>
+            
+        </>
     )
 }
 
