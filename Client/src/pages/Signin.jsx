@@ -1,7 +1,7 @@
 import React from 'react'
 import { MdLockOutline } from 'react-icons/md'
 import logo from '@/assets/Wayfair_logo_with_tagline.png'
-import UserLoginForm from '@/components/layout/UserLoginForm'
+import UserLoginForm from '@/components/auth/UserLoginForm'
 
 const Signin = () => {
     return (
