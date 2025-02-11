@@ -1,7 +1,7 @@
 import React from 'react'
 import { MdLockOutline } from 'react-icons/md'
 import logo from '@/assets/Wayfair_logo_with_tagline.png'
-import UserRegistationForm from '@/components/layout/UserRegistationForm.jsx'
+import UserRegistationForm from '@/components/auth/UserRegistationForm.jsx'
 import Footer from '@/components/layout/Footer'
 
 const Signup = () => {
