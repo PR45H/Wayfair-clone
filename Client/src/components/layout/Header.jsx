@@ -16,20 +16,6 @@ import Navbar from "./Navbar";
 const Header = () => {
     return (
         <header>
-            {/* Top banner hidden on mobile */}
-            <div className="bg-[#7B189F] px-4 sm:px-10 py-1 hidden sm:flex justify-end">
-                <ul className="flex gap-4 font-semibold text-white">
-                    <li className="cursor-pointer hover:underline">Rewards</li>
-                    <div className="w-[1px] h-full bg-white"></div>
-                    <li className="cursor-pointer hover:underline">Financing</li>
-                    <div className="w-[1px] h-full bg-white"></div>
-                    <li className="cursor-pointer hover:underline">Professional</li>
-                    <div className="w-[1px] h-full bg-white"></div>
-                    <li className="cursor-pointer hover:underline">
-                        Free & Easy Delivery Over $35
-                    </li>
-                </ul>
-            </div>
             {/* Middle section: logo, search & profile */}
             <div className="px-4 sm:px-10 py-2 flex flex-col border sm:flex-row items-center justify-between">
                 <div className="logo mb-2 sm:mb-0">
