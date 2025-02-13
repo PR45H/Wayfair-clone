@@ -48,6 +48,7 @@ const Home = () => {
     return (
         <>
             <div>
+                
                 <div className='hero_section'>
                     <HeroBanner />
                 </div>
