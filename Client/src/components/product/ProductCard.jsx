@@ -27,9 +27,10 @@ const ProductCard = ({ product }) => {
                 <Card.Description className="text-sm text-gray-600 line-clamp-2">
                     {product.description}
                 </Card.Description>
-                <h2 className="text-xl font-medium text-red-800 mt-2">
+                <h2 className="text-2xl font-mono text-red-800 mt-2">
                     ${product.price}
                 </h2>
+                
             </Card.Footer>
         </Card.Root>
     )
