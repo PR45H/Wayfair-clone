@@ -9,30 +9,12 @@ const ProductCard = ({ product }) => {
 
     const navigate = useNavigate()
 
-    const goToProduct = async (title, id) => {
-        console.log("Go to product " + title)
-        try {
-
-            const response = await productApi.get(`/products/${id}`)
-            console.log(response.data)
-
-            if (response.data) {
-                navigate(`/products/${title}`)
-            }
-        } catch (error) {
-            console.log(error)
-            AlertRoot({
-                status: "error",
-                description: "Error while fetching product",
-                title: "Error"
-
-            })
-
-        }
+    const goToProduct = async (id) => {
+        navigate(`/products/${id}`)
     }
 
         return (
-            <Card.Root maxW="sm" overflow="hidden" className="hover:shadow-lg  transition-shadow cursor-pointer" onClick={() => goToProduct(product.title, product.id)}>
+            <Card.Root maxW="sm" overflow="hidden" className="hover:shadow-lg  transition-shadow cursor-pointer" onClick={() => goToProduct(product.id)}>
                 <img
                     src={product.image}
                     alt={product.title}
