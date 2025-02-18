@@ -45,7 +45,7 @@ const SignInMenu = () => {
                     {authenticatedMenuList.map((item) => (
                         <button
                             key={item.name}
-                            onClick={() => item.link && navigate(item.link)}
+                            onClick={() => item.link && window.open(item.link, "blank")}
                             className="flex items-center gap-2 p-2 w-full text-left hover:text-[#7B189F] hover:underline justify-start"
                         >
                             {item.icon && <span>{item.icon}</span>}
@@ -64,14 +64,14 @@ const SignInMenu = () => {
                 <>
                     <button 
                         className="bg-[#7B189F] px-8 py-2 text-white font-semibold w-full rounded-2xl"
-                        onClick={() => navigate("/signin")}
+                        onClick={() => window.open("/signin", "blank")}
                     >
                         Sign In
                     </button>
                     {guestMenuList.map((item) => (
                         <button
                             key={item.name}
-                            onClick={() => item.link && navigate(item.link)}
+                            onClick={() => item.link && window.open(item.link, 'blank')}
                             className="flex items-center gap-2 p-2 w-full text-left hover:text-[#7B189F] hover:underline justify-start"
                         >
                             {item.icon && <span>{item.icon}</span>}
