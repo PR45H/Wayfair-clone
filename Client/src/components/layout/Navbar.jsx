@@ -21,7 +21,7 @@ const Navbar = () => {
           {navbarData.map((category, index) => (
             <MenuRoot key={index}>
               <MenuTrigger asChild>
-                <button className="bg-transparent font-semibold border-none text-lg cursor-pointer px-4 py-2 hover:text-[#7B189F] hover:underline-">
+                <button className="bg-transparent font-semibold border-none text-sm cursor-pointer px-4 py-2 hover:text-[#7B189F] hover:underline-">
                   {category.name}
                 </button>
               </MenuTrigger>
