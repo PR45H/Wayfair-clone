@@ -1,16 +1,11 @@
-import { AlertRoot, Card } from '@chakra-ui/react'
-import { Alert } from "@chakra-ui/react"
+import { Card } from '@chakra-ui/react'
 import React from 'react'
-import { useNavigate } from 'react-router-dom'
-import productApi from '../../api/product.api'
 
 const ProductCard = ({ product }) => {
     // console.log(product)
 
-    const navigate = useNavigate()
-
     const goToProduct = async (id) => {
-        navigate(`/products/${id}`)
+        window.open(`/products/${id}`,"_blank")
     }
 
         return (
