@@ -1,6 +1,8 @@
 import productApi from '@/api/product.api'
+import Footer from '@/components/layout/Footer'
 import Header from '@/components/layout/Header'
 import SectionTitle from '@/components/layout/SectionTitle'
+import AddToCart from '@/components/product/AddToCart'
 import ProductAccordion from '@/components/product/ProductAccordion'
 import ProductRating from '@/components/product/ProductRating'
 import React, { useEffect, useState } from 'react'
@@ -30,7 +32,7 @@ const ProductDetails = () => {
             <div className="p-4 md:p-8">
                 {products && (
                     <div className="flex flex-col md:flex-row border gap-4 p-4">
-                        <div className="product_image w-full md:w-[30%]">
+                        <div className="product_image md:w-[30%] ">
                             <img
                                 src={products.image}
                                 alt={products.name}
@@ -64,9 +66,15 @@ const ProductDetails = () => {
                                     className="border"
                                 />
                             </div>
+
+                            <div className="add_to_cart">
+                                <AddToCart/>
+                            </div>
                         </div>
+
                     </div>
                 )}
+                <Footer />
             </div>
         </>
     )
