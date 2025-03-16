@@ -10,6 +10,7 @@ import Home from './pages/Home'
 import Signup from './pages/Signup'
 import Signin from './pages/Signin'
 import ProductDetails from './pages/ProductDetails'
+import Cart from './pages/Cart'
 
 // router
 const router = createBrowserRouter([
@@ -22,7 +23,8 @@ const router = createBrowserRouter([
     ]
   },{ path: '/signup', element: <Signup /> },
   { path: '/signin', element: <Signin /> },
-  {path: '/products/:id', element: <ProductDetails />}
+  { path: '/products/:id', element: <ProductDetails /> },
+  {path:'/cart/:id',element:<Cart/>}
 
   
 ])
