@@ -58,4 +58,20 @@ const login = async (req,res) => {
     }
 }
 
-module.exports = {register, login}
+const getMe = async (req, res) => {
+    try {
+        const token = req.headers.authorization;
+        const decoded = jwt.verify(token, jwt_secret_key);
+        const user = await userModel.findById(decoded.id).select('-password');
+        
+        if (!user) {
+            return res.status(404).json({ message: "User not found" });
+        }
+        
+        return res.status(200).json({ user });
+    } catch (error) {
+        return res.status(401).json({ message: "Invalid token" });
+    }
+};
+
+module.exports = { register, login, getMe };
