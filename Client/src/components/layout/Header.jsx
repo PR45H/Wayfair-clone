@@ -12,8 +12,11 @@ import {
 } from "@/components/ui/menu"
 import SignInMenu from "./SignInMenu";
 import Navbar from "./Navbar";
+import { useSelector } from "react-redux";
 
 const Header = () => {
+    const { isAuthenticated } = useSelector((state) => state.auth);
+
     return (
         <header>
             {/* Middle section: logo, search & profile */}
@@ -37,11 +40,11 @@ const Header = () => {
                 <div className="flex gap-6">
                     {/* Profile Icon Placeholder */}
                     <div>
-                        <MenuRoot >
+                        <MenuRoot>
                             <MenuTrigger asChild>
                                 <button className="flex items-center gap-2 hover:text-[#7B189F]">
                                     <FaRegUserCircle className="text-xl"/>
-                                    Sign In
+                                    {isAuthenticated ? 'My Account' : 'Sign In'}
                                 </button>
                             </MenuTrigger>
                             <MenuContent>
