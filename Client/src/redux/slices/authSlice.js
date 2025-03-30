@@ -25,6 +25,25 @@ export const loginUser = createAsyncThunk(
     }
 );
 
+export const getUserData = createAsyncThunk(
+    '/getUserData',
+    async (_, {rejectWithValue}) => {
+        try {
+            const token = localStorage.getItem('token');
+            if (!token) throw new Error('No token found');
+            
+            const response = await userApi.get('/me', {
+                headers: {
+                    Authorization: token
+                }
+            });
+            return response.data;
+        } catch (error) {
+            return rejectWithValue(error.response?.data || "Failed to get user data");
+        }
+    }
+);
+
 const initialState = {
     user: null,
     token: localStorage.getItem('token'),
@@ -82,6 +101,23 @@ const authSlice = createSlice({
                 state.isLoading = false;
                 state.error = action.error.message;
             })
+        // Add these new cases
+            .addCase(getUserData.pending, (state) => {
+                state.isLoading = true;
+            })
+            .addCase(getUserData.fulfilled, (state, action) => {
+                state.user = action.payload.user;
+                state.isAuthenticated = true;
+                state.isLoading = false;
+                state.error = null;
+            })
+            .addCase(getUserData.rejected, (state) => {
+                localStorage.removeItem('token');
+                state.user = null;
+                state.token = null;
+                state.isAuthenticated = false;
+                state.isLoading = false;
+            });
     },
 });
 
