@@ -19,14 +19,12 @@ const router = createBrowserRouter([
     element: <App />,
     children: [
       { index: true, element: <Home /> },
-      
+      { path: '/signup', element: <Signup /> },
+      { path: '/signin', element: <Signin /> },
+      { path: '/products/:id', element: <ProductDetails /> },
+      { path: '/cart/:id', element: <Cart /> }
     ]
-  },{ path: '/signup', element: <Signup /> },
-  { path: '/signin', element: <Signin /> },
-  { path: '/products/:id', element: <ProductDetails /> },
-  {path:'/cart/:id',element:<Cart/>}
-
-  
+  }
 ])
 
 createRoot(document.getElementById('root')).render(
@@ -38,3 +36,4 @@ createRoot(document.getElementById('root')).render(
     </ReduxProvider>
   </StrictMode>,
 )
+
