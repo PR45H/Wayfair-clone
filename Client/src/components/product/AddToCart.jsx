@@ -1,13 +1,10 @@
 import React, { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 
-const AddToCart = () => {
+const AddToCart = ({id}) => {
     const [number, setNumber] = useState(1)
     const navigate = useNavigate()
-
-    const handleCart = () => {
-        alert('Added to Cart')
-    }
+    
 
     return (
         <>
@@ -37,7 +34,7 @@ const AddToCart = () => {
                     <div>
                         <button
                             className='bg-[#7B189F] text-white px-4 py-2 rounded-xl hover:bg-opacity-80 cursor-pointer w-full '
-                            onClick={handleCart}
+                            onClick={()=>window.open(`/cart/${id}`, "_blank")}
                         >
                             Add to Cart
                         </button>
